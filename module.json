@@ -10,6 +10,16 @@
     "scripts/one_roll_engine.js"
   ],
   "styles": ["css/styles.css"],
+  "packs": [
+    {
+      "label": "ORE Example Macros",
+      "type": "Macro",
+      "name": "ore-example-macros",
+      "path": "packs/ore-example-macros.db",
+      "module": "one-roll-engine",
+      "package": "one-roll-engine"
+    }
+  ],
   "url": "https://github.com/jalensailin/one-roll-engine-for-yoshiFanX",
   "manifest": "https://github.com/jalensailin/one-roll-engine-for-yoshiFanX/raw/master/module.json",
   "download": "https://github.com/jalensailin/one-roll-engine-for-yoshiFanX/archive/master.zip",
